@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/usr/bin/python
 
 def switchLights(stoplight):
+    
     for key in stoplight.keys():
         if stoplight[key] == 'green':
             stoplight[key] = 'yellow'
